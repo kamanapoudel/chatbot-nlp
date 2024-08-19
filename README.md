@@ -26,3 +26,30 @@ The chatbot will allow users to interact with a SQL database using natural langu
 * Query Execution: Execute the generated SQL query and fetch the results.
 * Visualization: Visualize the data using libraries like Matplotlib and Seaborn.
 * Error Handling: Include basic error handling to manage any issues with query execution.
+
+## Chatbot Application
+
+## Installation
+1. Clone the repo
+2. Install Python dependent packages
+```
+apt install python3.11-venv
+python3 -m venv venvir
+venvir/bin/pip3 install -r requirements.txt 
+source venvir/bin/activate
+```
+3. Install Ollama and Llama3.1 ML
+```
+curl -fsSL https://ollama.com/install.sh | sh
+ollama run llama3.1
+```
+4. Bring up the Postgres DB
+```
+docker compose up -d
+```
+## Start the application
+```
+streamlit run main.py
+```
+
+Refer to example-input.txt for sample queries to run in the chatbot

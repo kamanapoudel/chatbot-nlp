@@ -1,0 +1,2 @@
+give me a line graph of employees in each city and count of them 
+give me a bar graph of count of employee with name john in lower case in each city
