@@ -4,6 +4,15 @@
 In this project, I have created a Streamlit Chatbot integrated with Langchain technology, specifically designed for Exploratory Data Analysis (EDA) using Large Language Models (LLMs). 
 The chatbot will allow users to interact with a SQL database using natural language queries. It will provide real-time data visualization and insights, streamlining the process of data exploration and analysis.
 
+### Sample Output
+Normal Run
+![image](https://github.com/user-attachments/assets/80592db6-6bfd-4a0a-88f7-7cbf25b47c25)
+
+With Debug statements
+![image](https://github.com/user-attachments/assets/932c3797-5221-4f55-a6dc-e2c8fdb24dec)
+
+
+
 ### Key Components:
 * Streamlit: A Python library used for creating web applications. In this project, it will be used to build the chatbot interface.
 * Langchain: A framework for developing applications powered by LLMs. It helps in connecting the chatbot to the LLM for understanding and processing natural language queries.
